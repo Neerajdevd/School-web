@@ -6,7 +6,7 @@ const Navbar =()=>{
     const handleScroll = () => {
       const navbar = document.getElementById('navbar');
       const prop=document.getElementById('property');
-      const newHeight = window.scrollY > 0 ? 70 : 0;
+      const newHeight = window.scrollY > 0 ? 80 : 0;
       setNavbarHeight(newHeight);
       if (window.scrollY > 0 && newHeight > 0) {
       
