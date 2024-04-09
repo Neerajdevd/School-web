@@ -17,16 +17,16 @@ const LatestPost=()=>{
     return (
       <div className="bg-[#77B0AA]  max-md:bg-white h-full w-full relative z-0 p-10">
       <div className="z-10 ">
-      <div className="grid grid-cols-2 gap-12 ">
+      <div className="grid grid-cols-2 gap-12 max-sm:grid-cols-1">
             {data.map((d)=>(
-                <div class="flex items-center justify-center max-h-32 max-w-96 mt-20 ">
+                <div class="flex items-center justify-center max-h-60 max-w-96 mt-20 max-sm:justify-center">
                 <a
-                    class="relative block w-full bg-gray-900 group max-md:w-56 max-xl:w-60 max-xl:h-60  max-md:h-56 max-sm:w-40 max-sm:h-40 "
+                    class="relative block w-full bg-gray-900 group max-md:w-56 max-xl:w-60 max-xl:h-60  max-md:h-56 max-sm:w-full max-sm:h-64 "
                     href="##"
                 >
                     <img alt=""
                         class="absolute inset-0 object-cover 
-                           w-full h-full max-md:w-56 max-md:h-56 max-sm:w-48 max-sm:h-48 max-xl:w-60 max-xl:h-60  group-hover:opacity-50"
+                           w-full h-full max-md:w-56 max-md:h-56 max-sm:w-full max-sm:h-64 max-xl:w-60 max-xl:h-60  group-hover:opacity-50"
                         src={d.src} 
                     />
                     <div class="relative p-5">
@@ -44,15 +44,10 @@ const LatestPost=()=>{
 
 Our Upper School Eagles Track and Field athletes hosted schools from throughout the city - in their only home meet of the season - and excelled in their events. Go Eagles!
                                     </p>
-                                    {/* <button
-                                        class="px-4 py-2 text-sm 
-                                            text-white bg-green-600"
-                                    >
-                                        Visit site
-                                    </button> */}
+                                    
                                 </div>
                             </div>
-                            {/* End of hidden content */}
+                           
                         </div>
                     </div>
                 </a>

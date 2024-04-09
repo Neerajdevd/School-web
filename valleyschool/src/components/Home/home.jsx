@@ -58,7 +58,10 @@ const Home =()=>{
            </div>
 
            </div>
+           <div>
+
             <LatestPost/>
+           </div>
            </div>
        </div>
        <div className="mt-20">

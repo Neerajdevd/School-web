@@ -15,19 +15,19 @@ const NewsValley=()=>{
        
     ]
     return (
-        <div className="bg-gray-200 relative z-10">
+        <div className="bg-gray-200 max-sm:bg-white relative z-10">
 
-     <div className="flex justify-center items-center">
-         <div className="grid grid-cols-2 gap-12 ">
+     <div className="flex justify-center items-center ">
+         <div className="grid grid-cols-2 gap-12 max-sm:grid-cols-1 ">
             {data.map((d)=>(
-                <div class="flex items-center justify-center max-h-32 max-w-96 mt-20">
+                <div class="flex items-center justify-center max-h-32  max-w-96 mt-20 ">
                 <a
-                    class="relative block w-full max-md:w-56 max-md:h-56 max-sm:w-40 max-sm:h-40 bg-violet-900 group"
+                    class="relative block w-full  max-md:w-full max-md:h-56 max-sm:w-full  max-sm:h-72 bg-violet-400 group"
                     href="##"
                 >
                     <img alt=""
                         class="absolute inset-0 object-cover 
-                           w-full h-full max-md:w-56 max-md:h-56 max-sm:w-40 max-sm:h-40  group-hover:opacity-50"
+                           w-full h-full max-md:w-full max-md:h-56 max-sm:w-full max-sm:h-72  group-hover:opacity-50"
                         src={d.src} 
                     />
                     <div class="relative p-5">
@@ -37,10 +37,10 @@ const NewsValley=()=>{
                                 class="transition-all transform 
                                 translate-y-8 opacity-0 
                                 group-hover:opacity-100 
-                                group-hover:translate-y-0"
+                                group-hover:translate-y-0 max-sm:text-center max-sm:text-xm"
                             >
                                 <div class="p-2">
-                                    <p class="text-lg text-white text-center">
+                                    <p class="text-lg text-white text-center font-medium">
                                     This week on campus: Track Meet
 
 Our Upper School Eagles Track and Field athletes hosted schools from throughout the city - in their only home meet of the season - and excelled in their events. Go Eagles!

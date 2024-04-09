@@ -35,11 +35,30 @@ const SimpleSlider=()=>{
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 3,
+        responsive: [
+          {
+              breakpoint: 640, 
+              settings: {
+                  slidesToShow: 1
+              }
+          },
+          {
+              breakpoint: 1536, 
+              settings: {
+                  slidesToShow: 3
+              }
+          },
+          {
+            breakpoint: 768, 
+            settings: {
+                slidesToShow: 2
+            }
+        }
+      ],
         slidesToScroll: 1,
       };
     return (
-     <div className="w-3/4 m-auto">
+     <div className="w-3/4 m-auto ">
        <div className="mt-20">
        <Slider  {...settings}>
       {data.map((d)=>(
