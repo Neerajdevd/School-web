@@ -22,12 +22,12 @@ const NewsValley=()=>{
             {data.map((d)=>(
                 <div class="flex items-center justify-center max-h-32 max-w-96 mt-20">
                 <a
-                    class="relative block w-full bg-violet-900 group"
+                    class="relative block w-full max-md:w-56 max-md:h-56 max-sm:w-40 max-sm:h-40 bg-violet-900 group"
                     href="##"
                 >
                     <img alt=""
                         class="absolute inset-0 object-cover 
-                           w-full h-full   group-hover:opacity-50"
+                           w-full h-full max-md:w-56 max-md:h-56 max-sm:w-40 max-sm:h-40  group-hover:opacity-50"
                         src={d.src} 
                     />
                     <div class="relative p-5">

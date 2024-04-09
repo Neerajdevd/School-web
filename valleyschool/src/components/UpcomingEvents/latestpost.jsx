@@ -15,18 +15,18 @@ const LatestPost=()=>{
        
     ]
     return (
-      <div className="bg-[#77B0AA]   h-full w-full relative z-0 p-10">
+      <div className="bg-[#77B0AA]  max-md:bg-white h-full w-full relative z-0 p-10">
       <div className="z-10 ">
       <div className="grid grid-cols-2 gap-12 ">
             {data.map((d)=>(
-                <div class="flex items-center justify-center max-h-32 max-w-96 mt-20">
+                <div class="flex items-center justify-center max-h-32 max-w-96 mt-20 ">
                 <a
-                    class="relative block w-full bg-gray-900 group"
+                    class="relative block w-full bg-gray-900 group max-md:w-56 max-xl:w-60 max-xl:h-60  max-md:h-56 max-sm:w-40 max-sm:h-40 "
                     href="##"
                 >
                     <img alt=""
                         class="absolute inset-0 object-cover 
-                           w-full h-full   group-hover:opacity-50"
+                           w-full h-full max-md:w-56 max-md:h-56 max-sm:w-48 max-sm:h-48 max-xl:w-60 max-xl:h-60  group-hover:opacity-50"
                         src={d.src} 
                     />
                     <div class="relative p-5">
