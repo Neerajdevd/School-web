@@ -6,7 +6,7 @@ const Navbar =()=>{
     const handleScroll = () => {
       const navbar = document.getElementById('navbar');
       const prop=document.getElementById('property');
-      const newHeight = window.scrollY > 0 ? 80 : 0;
+      const newHeight = window.scrollY > 0 ? 70 : 0;
       setNavbarHeight(newHeight);
       if (window.scrollY > 0 && newHeight > 0) {
       
@@ -25,7 +25,7 @@ const Navbar =()=>{
 
   return (
       <nav id="navbar"  className={`fixed left-0 right-0  top-0 z-50 transition-all duration-500 h-${navbarHeight} `}>
-<div id="property" className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-8 ">
+<div id="property" className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6 ">
 <a href className="flex items-center space-x-3 rtl:space-x-reverse">
     <img src="https://naturevalleyschool.org/wp-content/uploads/2024/03/Natures-Valley-Kausani-300x201.png" className="h-10" alt="Flowbite Logo" />
     <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Nature Valley school</span>
