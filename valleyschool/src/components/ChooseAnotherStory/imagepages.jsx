@@ -17,12 +17,12 @@ const ImagePg=()=>{
 
 
     return (
-       <div className="flex gap-2 max-md:flex-wrap  max-lg:flex-row max-sm:justify-center max-lg:flex-wrap">
+       <div className="flex gap-2 max-md:flex-wrap overflow-x-auto  max-lg:flex-row max-sm:justify-center max-lg:flex-wrap">
        <div>
         <p className="text-gray-500 text-xl font-serif font-semibold">CHOOSE ANOTHER STORY</p>
        </div>
        <div>
-  <div className="flex flex-wrap gap-3 sm:flex-row md:flex-col scroll-x overflow-x-auto  max-sm:flex-nowrap  max-sm:justify-center lg:flex-row">
+  <div className="flex flex-wrap gap-3 sm:flex-row md:flex-col   max-sm:flex-nowrap  max-sm:justify-center lg:flex-row">
     {data.map((d)=>(
       <div class="relative max-w-56 gap-2 bg-cover bg-no-repeat ">
         <img
