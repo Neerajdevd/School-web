@@ -21,18 +21,18 @@ const ImagePg=()=>{
        <div>
         <p className="text-gray-500 text-xl font-serif font-semibold">CHOOSE ANOTHER STORY</p>
        </div>
-         <div className="flex gap-3">
-          {data.map((d)=>(
-            <div class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat ">
-  <img
-    src={d.src}
-    class="max-w-xs flex max-sm:flex-wrap cursor-pointer transform h-auto transition duration-300 ease-in-out hover:scale-110 hover:shadow-black/30"
-    alt="Louvre" />
+       <div>
+  <div className="flex flex-wrap gap-3 sm:flex-row md:flex-col lg:flex-row">
+    {data.map((d)=>(
+      <div class="relative max-w-xs overflow-hidden bg-cover bg-no-repeat ">
+        <img
+          src={d.src}
+          class="max-w-xs flex max-sm:flex-wrap cursor-pointer transform h-auto transition duration-300 ease-in-out hover:scale-110 hover:shadow-black/30"
+          alt="Louvre" />
+      </div>
+    ))}
+  </div>
 </div>
-          ))}
-     
-
-         </div>
        </div>
     )
 }

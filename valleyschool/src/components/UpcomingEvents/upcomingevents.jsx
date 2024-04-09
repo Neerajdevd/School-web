@@ -18,14 +18,14 @@ const Upcomingeventscards=()=>{
         <div>
    {data.map((d)=>(
     <div>
-    <a href class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl  mt-5">
-    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src={d.src} alt=""/>
-    {/* <img width="260" src=""></img> */}
+    <a href class="flex flex-col max-md:flex-row items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row mt-5">
+    <img class="object-cover w-full md:w-48 rounded-t-lg md:rounded-l-lg md:rounded-none md:h-auto h-96" src={d.src} alt=""/>
     <div class="flex flex-col justify-between p-4 leading-normal">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-[#0074cc] ">Noteworthy technology acquisitions 2021</h5>
-        <p class="mb-3 font-normal text-gray-700 0">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+        <p class="mb-3 font-normal text-gray-700">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
     </div>
 </a>
+
     </div>
    
    ))}

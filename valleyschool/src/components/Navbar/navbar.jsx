@@ -24,7 +24,7 @@ const Navbar =()=>{
   }, []);
 
   return (
-      <nav id="navbar"  className={`relative  top-0 z-50 transition-all duration-500 h-${navbarHeight} `}>
+      <nav id="navbar"  className={`fixed left-0 right-0  top-0 z-50 transition-all duration-500 h-${navbarHeight} `}>
 <div id="property" className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-8 ">
 <a href className="flex items-center space-x-3 rtl:space-x-reverse">
     <img src="https://naturevalleyschool.org/wp-content/uploads/2024/03/Natures-Valley-Kausani-300x201.png" className="h-10" alt="Flowbite Logo" />
