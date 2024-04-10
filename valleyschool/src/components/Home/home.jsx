@@ -41,7 +41,7 @@ const Home =()=>{
        <div className="mt-14">
         <ImagePg/>
        </div>
-       <div className="flex gap-5 mt-20 max-md:flex-wrap max-lg:flex-wrap">
+       <div className=" mt-20 m-2 ">
            <div>
            <p className="text-[#0074cc] font-serif text-xl justify-center 	font-style: italic; italic">Upcoming Events</p>
             <Upcomingeventscards/>

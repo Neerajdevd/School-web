@@ -45,7 +45,7 @@ const Navbar = () => {
     >
       <div
         id="property"
-        className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6"
+        className=" flex flex-wrap items-center justify-between mx-auto p-6"
       >
         <a href className="flex items-center space-x-3 rtl:space-x-reverse">
           <img

@@ -41,7 +41,7 @@ function Crousell() {
   };
 
   return (
-    <div className='max-w-[1400px] h-[780px] w-full  z-0  relative group'>
+    <div className=' h-[780px] w-full  z-0  relative group'>
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className='w-full h-full  bg-center bg-cover duration-500'

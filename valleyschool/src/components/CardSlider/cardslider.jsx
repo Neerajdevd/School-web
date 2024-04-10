@@ -35,6 +35,7 @@ const SimpleSlider=()=>{
         dots: true,
         infinite: true,
         speed: 500,
+        slidesToShow: 3,
         responsive: [
           {
               breakpoint: 640, 
