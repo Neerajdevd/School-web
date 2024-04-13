@@ -14,14 +14,14 @@ const Upcomingeventscards = () => {
   return (
     <div className="">
       {data.map((d) => (
-        <div className="w-full flex justify-center ">
+        <div className="w-full flex justify-center">
           <div className="w-[80%]">
             <a
               href
               class="flex flex-col  max-md:flex-wrap items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row mt-5"
             >
               <img
-                class="object-cover mx-2 w-full md:w-48 rounded-t-lg md:rounded-l-lg md:rounded-none md:h-auto h-96"
+                class="object-cover mx-2 w-full md:w-48 rounded-t-lg md:rounded-l-lg md:rounded-none md:h-auto h-full"
                 src={d.src}
                 alt=""
               />
