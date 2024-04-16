@@ -1,3 +1,5 @@
+
+
 const LatestPost=()=>{
     const data=[
         {
@@ -16,6 +18,9 @@ const LatestPost=()=>{
     ]
     return (
       <div className="bg-[#77B0AA]  max-md:bg-white h-full w-full relative z-0 p-10">
+      <div>
+        <img src="../../../public/utube.png" alt=""/>
+      </div>
       <div className="z-10 ">
       <div className="grid grid-cols-2 h-max-60 gap-4 max-sm:grid-cols-1">
             {data.map((d)=>(

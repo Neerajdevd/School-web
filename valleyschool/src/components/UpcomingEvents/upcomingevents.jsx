@@ -18,10 +18,10 @@ const Upcomingeventscards = () => {
           <div className="w-[80%]">
             <a
               href
-              class="flex flex-col  max-md:flex-wrap items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row mt-5"
+              class="flex flex-col  max-md:flex-wrap items-center bg-gray-300 border border-gray-200 rounded-lg shadow md:flex-row mt-5"
             >
               <img
-                class="object-cover mx-2 w-full md:w-48 rounded-t-lg md:rounded-l-lg md:rounded-none md:h-auto h-full"
+                class="object-cover  w-full md:w-48 rounded-t-lg md:rounded-l-lg md:rounded-none md:h-auto h-full"
                 src={d.src}
                 alt=""
               />

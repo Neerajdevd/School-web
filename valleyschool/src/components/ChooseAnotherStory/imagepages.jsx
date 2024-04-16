@@ -22,7 +22,7 @@ const ImagePg = () => {
         <div>
           <div className="flex flex-wrap justify-center gap-3   ">
             {data.map((d) => (
-              <div class="relative max-w-56 gap-2 bg-cover bg-no-repeat ">
+              <div class="relative max-w-96 gap-2 bg-cover bg-no-repeat ">
                 <img
                   src={d.src}
                   class="flex flex-wrap cursor-pointer  transform h-auto transition duration-300 ease-in-out hover:scale-110 hover:shadow-black/30"

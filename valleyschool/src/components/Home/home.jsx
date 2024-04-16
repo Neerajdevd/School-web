@@ -47,7 +47,7 @@ const Home =()=>{
             <Upcomingeventscards/>
            </div>
            <div>
-           <div className="flex justify-between">
+           <div className="flex justify-between p-4">
            <div>
 
            <p className="text-[#0074cc] italic">LatestPost</p>
